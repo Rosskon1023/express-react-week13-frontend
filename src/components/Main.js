@@ -7,8 +7,8 @@ function Main(props) {
 
     const [people, setPeople] = useState([]);
 
-    // const URL = "https://express-react-week13day3.herokuapp.com/people/";
-    const URL = "http://localhost:3001/people/";
+    const URL = "https://express-react-week13day3.herokuapp.com/people/";
+    // const URL = "http://localhost:3001/people/";
 
     const createPeople = async (person) => {
         if(!props.user) return;
